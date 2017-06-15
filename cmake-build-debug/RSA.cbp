@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RSA"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/shenz/ClionProjects/RSA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RSA">
+				<Option output="C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/RSA.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/shenz/ClionProjects/RSA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\app\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\app\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\app\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\app\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\app\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\app\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\app\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 RSA"/>
+					<CompileFile command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RSA/fast">
+				<Option output="C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/RSA.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/shenz/ClionProjects/RSA/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\app\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\app\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\app\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\app\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\app\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\app\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\app\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 RSA/fast"/>
+					<CompileFile command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/shenz/ClionProjects/RSA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/shenz/ClionProjects/RSA/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/App/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/shenz/ClionProjects/RSA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/shenz/ClionProjects/RSA/BigInt.cpp">
+			<Option target="RSA"/>
+		</Unit>
+		<Unit filename="C:/Users/shenz/ClionProjects/RSA/BigInt.h">
+			<Option target="RSA"/>
+		</Unit>
+		<Unit filename="C:/Users/shenz/ClionProjects/RSA/Key.cpp">
+			<Option target="RSA"/>
+		</Unit>
+		<Unit filename="C:/Users/shenz/ClionProjects/RSA/Key.h">
+			<Option target="RSA"/>
+		</Unit>
+		<Unit filename="C:/Users/shenz/ClionProjects/RSA/PrimeGen.cpp">
+			<Option target="RSA"/>
+		</Unit>
+		<Unit filename="C:/Users/shenz/ClionProjects/RSA/PrimeGen.h">
+			<Option target="RSA"/>
+		</Unit>
+		<Unit filename="C:/Users/shenz/ClionProjects/RSA/RSA.cpp">
+			<Option target="RSA"/>
+		</Unit>
+		<Unit filename="C:/Users/shenz/ClionProjects/RSA/RSA.h">
+			<Option target="RSA"/>
+		</Unit>
+		<Unit filename="C:/Users/shenz/ClionProjects/RSA/StringTrans.cpp">
+			<Option target="RSA"/>
+		</Unit>
+		<Unit filename="C:/Users/shenz/ClionProjects/RSA/StringTrans.h">
+			<Option target="RSA"/>
+		</Unit>
+		<Unit filename="C:/Users/shenz/ClionProjects/RSA/main.cpp">
+			<Option target="RSA"/>
+		</Unit>
+		<Unit filename="C:/Users/shenz/ClionProjects/RSA/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
